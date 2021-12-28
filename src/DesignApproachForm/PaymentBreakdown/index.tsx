@@ -118,7 +118,7 @@ const PaymentBreakdown = React.memo(
 						<Grid container item xs={12} justifyContent="flex-end">
 							<Grid item>
 								{phase.paymentBreakdown.length > 0 && (
-									<Tooltip title="Delete">
+									<Tooltip title="Remove payment breakdown">
 										<IconButton onClick={() => pop()}>
 											<DeleteIcon />
 										</IconButton>
@@ -126,7 +126,7 @@ const PaymentBreakdown = React.memo(
 								)}
 							</Grid>
 							<Grid item>
-								<Tooltip title="Add">
+								<Tooltip title="Add payment breakdown">
 									<IconButton onClick={() => push(paymentBreakdown)}>
 										<AddIcon />
 									</IconButton>
